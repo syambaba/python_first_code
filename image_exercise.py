@@ -9,8 +9,8 @@ picture = [
 for row in picture:
   for elem in row:
     if(elem==0):
-      print(" ",end="")
+      print(" ")
     else:
-      print("*",end="")
+      print("*")
   print("\n")
   
